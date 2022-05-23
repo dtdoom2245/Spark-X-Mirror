@@ -55,8 +55,8 @@ This bot can mirror all your links to Google Drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Repo", "https://github.com/repolink")
-    buttons.buildbutton("Channel", "https://t.me/drivetalk")
+    buttons.buildbutton("Repo", "https://github.com/thantzinmyothant1")
+    buttons.buildbutton("Channel", "https://t.me/+RCyW9A_muQA5NzFl")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         if update.message.chat.type == "private" :
